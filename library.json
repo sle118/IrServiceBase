@@ -1,0 +1,42 @@
+{
+  "name": "IrServiceBase",
+  "keywords": "infrared, tcp,tcpip,service",
+  "description": "Arduino Library for the ESP8266 product family which defines a framework for creating TCP/IP based infrared client/servers",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/sle118/IrServiceBase.git"
+  },
+  "authors":
+  [
+    {
+      "name": "sle118",
+      "url": "http://github.com/sle118",
+      "maintainer": true
+    },
+    {
+      "name": "probonopd",
+      "url": "https://plus.google.com/u/0/105493415534008524873"
+    }
+  ],
+  "dependencies":[
+    {
+      "name": "ProntoHex",
+      "authors": "probonopd",
+      "frameworks": "arduino"
+    },
+    {
+        "name": "ESP AsyncTCP",
+        "authors": "Me-No-Dev",
+        "frameworks": "arduino"
+      },
+      {
+          "name": "IRremoteESP8266",
+          "authors": "Sebastien Warin, Mark Szabo, Ken Shirriff",
+          "frameworks": "arduino"
+        }
+      ],
+  "version": "1.0.0",
+  "frameworks": "arduino",
+  "platforms": "esp8266"
+}

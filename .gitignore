@@ -1,0 +1,8 @@
+.pioenvs
+.piolibdeps
+.clang_complete
+.gcc-flags.json
+.settings
+.cproject
+.project
+.travis.yml
