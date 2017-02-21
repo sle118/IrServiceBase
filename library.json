@@ -26,7 +26,7 @@
       "frameworks": "arduino"
     },
     {
-        "name": "ESP AsyncTCP",
+        "name": "ESPAsyncTCP",
         "authors": "Me-No-Dev",
         "frameworks": "arduino"
       },
