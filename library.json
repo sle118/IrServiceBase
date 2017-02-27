@@ -22,21 +22,18 @@
   "dependencies":[
     {
       "name": "ProntoHex",
-      "authors": "probonopd",
       "frameworks": "arduino"
     },
     {
-        "name": "ESP AsyncTCP",
-        "authors": "Me-No-Dev",
-        "frameworks": "arduino"
-      },
-      {
-          "name": "IRremoteESP8266",
-          "authors": "Sebastien Warin, Mark Szabo, Ken Shirriff",
-          "frameworks": "arduino"
-        }
-      ],
+      "name": "ESPAsyncTCP",
+      "frameworks": "arduino"
+    },
+    {
+      "name": "IRremoteESP8266",
+      "frameworks": "arduino"
+    }
+  ],
   "version": "1.0.0",
   "frameworks": "arduino",
-  "platforms": "esp8266"
+  "platforms": "espressif8266"
 }
