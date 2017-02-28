@@ -31,6 +31,10 @@
     {
       "name": "IRremoteESP8266",
       "frameworks": "arduino"
+    },
+    {
+      "name": "ESPAsyncWebServer",
+      "frameworks": "arduino"
     }
   ],
   "version": "1.0.0",

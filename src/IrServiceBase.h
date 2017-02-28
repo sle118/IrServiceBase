@@ -14,6 +14,7 @@
 #include "IRremoteESP8266.h"
 #include <ProntoHex.h>
 #include <functional>
+#include <ESPAsyncWebServer.h>
 #include "StringArray.h"
 #include "IrAsyncCommandProcessor.h"
 #include "Print.h"
